@@ -10,9 +10,7 @@ This repository contains code and data for differential expression analysis usin
 - [Table of Contents](#table-of-contents)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+
 
 ## Installation
 
