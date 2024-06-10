@@ -50,10 +50,17 @@ This repository contains code and data for differential expression analysis usin
     meta1[,1]
     ```
 
-4. **Committing specific files**:
-    ```sh
-    git add path/to/file1 path/to/file2
-    git commit -m "Add file1 and file2"
-    git push origin main
+4. **Data Preparation**:
+   - checking if column order of expr table is the same as row order of meta1
+   ```r
+    identical(colnames(expr0), meta1$Sample_code)
     ```
+
+   - The purpose of this code is to ensure that the column names of the expression data (expr0) match exactly with the sample codes listed in the metadata (meta1). This is important in bioinformatics and other data analysis contexts because it ensures that the expression data is correctly aligned with the sample metadata. Misalignment could lead to incorrect analysis results.
+  
+   - Model matrix and expression check
+  
+
+   
+
 
